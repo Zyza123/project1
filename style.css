@@ -1,0 +1,382 @@
+body
+{
+	background-image: url("img/tlo2.png");
+	font-family: 'Ubuntu', sans-serif;
+	margin:0;
+	padding:0;
+	color: #9d9da6;
+}
+#tlologo
+{
+	width: 1190px;
+	height: 100px;
+	background-image: url("img/tlo.logo.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	border-radius: 5px;
+}
+.logo
+{
+	margin-left: 400px;
+	color: #04228a;
+	text-shadow: 2px 2px 3px #ffff00;
+	letter-spacing: 2px;
+	font-size: 45px;
+	display: block;
+	padding-top: 20px;
+}
+#menu
+{
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1a1c2e;
+}
+.navL
+{
+	line-height: 370%;
+	width: 238px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	border-right: 2px solid black;
+}
+.navL:hover a
+{
+	color: yellow;
+}
+#navR
+{
+	line-height: 370%;
+	width: 240px;
+	height: 60px;
+	text-align: center;
+	float: left;
+}
+#navR:hover a
+{
+	color: yellow;
+}
+.link
+{
+	width:238px;
+	height: 60px;
+	display: block;
+	text-decoration: none;
+	color: #9d9da6;
+}	
+#napis_nakladki
+{
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-size: 36px;
+	margin-top: 50px;
+}
+@font-face 
+{
+	font-family: "AstroSpace-0Wl3o";
+	src: url("AstroSpace-0Wl3o.ttf");
+	src: url("AstroSpace-0Wl3o.otf");
+}
+#czas
+{
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin-bottom: 10px;
+	font: 36px "AstroSpace-0Wl3o";
+	color: #dbd404;
+}
+#container
+{
+	width: 928px;
+	height: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+.photo
+{
+	width: 400px;
+	height: 250px;
+	margin: 30px;
+	float: left;
+	border-radius: 10px;
+}
+.pozycja
+{
+	position: relative;
+	width: 400px;
+	height: 250px;
+}
+.pozycja:hover
+{
+}
+.pozycja2
+{
+	position: relative;
+	width: 400px;
+	height: 250px;
+	border-radius: 10px;
+}
+.pozycja .link2
+{
+	position: absolute;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #007ab3;
+	left:0px;
+	top:0px;
+	transition: all 0.8s linear;
+	border-radius: 10px;
+}
+.pozycja a
+{
+	text-decoration: none;
+	
+}
+.pozycja2 a
+{
+	text-decoration: none;
+	
+}		
+.napis 
+{
+	display: block;
+	top: 25%;
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+}	
+.pozycja:hover .link2
+{
+	opacity: 0.7;
+	border-radius: 10px;
+}
+#photo1
+{
+	width: 400px;
+	height: 250px;
+	border-radius: 10px;
+}
+.napis2
+{
+	display: block;
+	top: 15%;
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+}
+.pozycja2 .link2
+{
+	position: absolute;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #9c7421;
+	left:0px;
+	top:0px;
+	transition: all 0.8s linear;
+	border-radius: 10px;
+}
+.pozycja2:hover .link2
+{
+	opacity: 0.7;
+	border-radius: 10px;
+}
+#photo2
+{
+	width: 400px;
+	height: 250px;
+	border-radius: 10px;
+}
+#ostatniewpisy
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wpisy
+{
+	margin-top: 30px;
+	width: 1200px;
+	height: 334px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#wpis1
+{
+	width: 1180px;
+	height: 90px;
+	padding: 10px;
+	border-bottom: 2px solid #1a1c2e;
+}
+#wpis2
+{
+	width: 1180px;
+	height: 90px;
+	padding: 10px;
+}
+#wpis3
+{
+	width: 1180px;
+	height: 90px;
+	padding: 10px;
+	border-top: 2px solid #1a1c2e;
+}
+.miniphoto
+{
+	width: 118px;
+	height: 90px;
+	float: left;
+	border-right: 2px solid #1a1c2e;
+}
+.mini
+{
+	width: 100px;
+	height: 90px;
+}
+.paragraf
+{
+	margin-left: 10px;
+	width: 1050px;
+	height: 90px;
+	float: left;
+	font-size: 14px;
+}
+#tytul_gablotka
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+#gablotka
+{
+	width: 1180px;
+	height: 380px;
+	padding: 11px 10px 11px 10px;
+	background-color: #1a1c2e;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#uczony1
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+#uczony2
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+#uczony3
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+#uczony4
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+#uczony5
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+#uczony6
+{
+	width: 390px;
+	height: 188px;
+	display: inline-block;
+	background-image: url("img/tlo2.png");
+}
+.photo_nauk
+{
+	width: 150px;
+	height: 188px;
+	display: block;
+	float: left;
+}
+.mini_par
+{
+	width: 220px;
+	height: 168px;
+	padding: 10px;
+	float: left;
+}
+#footainer
+{
+	width: 100%;
+	height: 270px;
+	background-color: #1a1c2e;
+	margin-top: 50px;
+}
+#stopka
+{
+	width: 1200px;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#referencje
+{
+	position: absolute;
+	top: 15%;
+	left: 0%;
+	width: 798.5px;
+	height: 160px;
+	border-right: 1.5px solid black;
+	font-size: 14px;
+	float: left;
+	line-height: 140%;
+}
+#dane
+{
+	position: absolute;
+	top: 15%;
+	left: 68%;
+	width: 400px;
+	height: 160px;
+	font-size: 14px;
+	float: left;
+	line-height: 140%;
+}
+#programista
+{
+	position: absolute;
+	top: 74%;
+	left: 0%;
+	width: 1200px;
+	height: 38.5px;
+	font-size: 20px;
+	border-top: 1.5px solid black;
+	text-align: center;
+	line-height: 320%;
+}
+
